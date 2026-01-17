@@ -24,6 +24,8 @@ tags:
 `git rm <文件>`
 ### 让 Git 忽略文件而不删除它
 `git rm --cached <文件>`
+### 让 Git 忽略目录而不删除它
+`git rm --cached -r <目录>`
 ### 取消暂存一个文件
 `git reset <文件>`
 ### 取消暂存所有内容

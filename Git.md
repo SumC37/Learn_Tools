@@ -44,7 +44,7 @@ flowchart TD
 
 ## Git工作流
 ```mermaid
-flowchart LR
+flowchart TD
     subgraph A [工作区]
         A1[修改文件]
         A2[新建文件]
@@ -139,3 +139,6 @@ flowchart TD
     F_M <-- 你推送Push --> L_F
     L_F -- 用于发起Pull Request --> U
 ```
+> [!warning]
+> 不要将账号、密码等隐私信息提交、上传、推送到版本库
+
